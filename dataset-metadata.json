@@ -1,0 +1,26 @@
+{
+  "name": "Israeli Company Registration and Dissolution Trends — 12-Month Snapshot",
+  "description": "Monthly aggregate counts of Israeli corporate registrations and registry status-update events associated with deletion, liquidation or dissolution.",
+  "language": ["he", "en"],
+  "publisher": {
+    "name": "DataCheck Research",
+    "url": "https://datacheck.co.il/"
+  },
+  "temporalCoverage": "2025-09/2026-08",
+  "dateModified": "2026-08-25",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isBasedOn": [
+    "https://datacheck.co.il/trends/new-this-month",
+    "https://datacheck.co.il/trends/dissolved"
+  ],
+  "distribution": [
+    {
+      "contentUrl": "data/company-registrations-monthly.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "contentUrl": "data/company-dissolution-status-updates-monthly.csv",
+      "encodingFormat": "text/csv"
+    }
+  ]
+}

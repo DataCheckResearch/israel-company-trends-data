@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it and link to the relevant DataCheck Trends source page."
+title: "Israeli Company Registration and Dissolution Trends — 12-Month Snapshot"
+type: dataset
+authors:
+  - name: "DataCheck Research"
+website: "https://datacheck.co.il/trends"
+repository-code: "https://github.com/DataCheckResearch/israel-company-trends-data"
+date-released: 2026-08-25
+license: CC-BY-4.0
+keywords:
+  - Israel
+  - companies
+  - company registry
+  - corporate data
+  - dissolution
+  - liquidation
+  - business intelligence
