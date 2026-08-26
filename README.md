@@ -16,6 +16,7 @@
 |---|---|---|
 | [`company-registrations-monthly.csv`](data/company-registrations-monthly.csv) | מספר תאגידים שנרשמו בכל חודש | [חברות חדשות שנרשמו החודש](https://datacheck.co.il/trends/new-this-month) |
 | [`company-dissolution-status-updates-monthly.csv`](data/company-dissolution-status-updates-monthly.csv) | מספר אירועי עדכון סטטוס למחיקה, פירוק או חיסול בכל חודש | [חברות שנמחקו ופורקו לאחרונה](https://datacheck.co.il/trends/dissolved) |
+| [`company-net-movement-proxy-2026-08-26.csv`](data/company-net-movement-proxy-2026-08-26.csv) | רישומים פחות אירועי יציאה — מדד תנועה משוער, לא שינוי משפטי מדויק במלאי החברות | [מרכז המגמות](https://datacheck.co.il/trends) |
 | [`recent-company-sample-2026-08-26.csv`](data/recent-company-sample-2026-08-26.csv) | מדגם מחקר של 15 חברות: 10 חדשות ו־5 ותיקות יותר | [חברות שנרשמו החודש](https://datacheck.co.il/trends/new-this-month) |
 
 אוגוסט 2026 הוא חודש חלקי נכון למועד צילום הנתונים, ולכן אין להשוות אותו לחודש מלא בלי לציין זאת.
@@ -46,6 +47,7 @@ print(dissolutions.tail())
 
 - זהו צילום נתונים מצרפי, לא מאגר רשמי של רשות התאגידים.
 - סדרת הפירוק מודדת אירועי עדכון סטטוס לפי חודש, ולא בהכרח מספר חברות ייחודיות או מועד מתן צו משפטי.
+- מדד התנועה נטו הוא proxy חשבוני: רישומים פחות אירועי עדכון סטטוס של יציאה. אין לפרשו כשינוי מדויק במלאי החברות הפעילות.
 - מידע רישומי עשוי להתעדכן בדיעבד; לכן המספרים בעמודים החיים יכולים להשתנות לאחר צילום הקבצים.
 - הנתונים אינם ציון סיכון ואינם תחליף לבדיקה של תאגיד מסוים.
 - קובצי המגמה אינם כוללים מידע אישי. קובץ המדגם כולל רק שם ומספר של תאגיד פומבי, קבוצת המדגם, כתובת המקור וחובת הייחוס.
@@ -74,6 +76,8 @@ This repository contains two monthly aggregate series for Israel:
 2. registry-status update events associated with deletion, liquidation or dissolution.
 
 It also includes one dated research sample of 15 public corporate entities, with direct source URLs and an explicit attribution field.
+
+The derived net-movement proxy subtracts exit-status update events from registrations. It is an analytical proxy, not an official count of the change in active companies.
 
 The files are snapshots captured on 2026-08-25 and 2026-08-26 from DataCheck Trends. August 2026 is incomplete. The dissolution series represents status-update events, not necessarily unique companies or court-order dates. Reuse without visible attribution is not permitted under CC BY 4.0. Minimum credit: “Source: DataCheck Research — https://datacheck.co.il/trends (accessed YYYY-MM-DD).”
 
