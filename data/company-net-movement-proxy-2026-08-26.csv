@@ -1,0 +1,14 @@
+month,registrations,exit_status_updates,net_movement_proxy,snapshot_date,month_status,registrations_source,exit_source,required_attribution
+2025-09,1271,807,464,2026-08-26,complete,https://datacheck.co.il/trends/new-this-month,https://datacheck.co.il/trends/dissolved,"DataCheck Research — https://datacheck.co.il/trends"
+2025-10,930,841,89,2026-08-26,complete,https://datacheck.co.il/trends/new-this-month,https://datacheck.co.il/trends/dissolved,"DataCheck Research — https://datacheck.co.il/trends"
+2025-11,1318,1139,179,2026-08-26,complete,https://datacheck.co.il/trends/new-this-month,https://datacheck.co.il/trends/dissolved,"DataCheck Research — https://datacheck.co.il/trends"
+2025-12,1318,1906,-588,2026-08-26,complete,https://datacheck.co.il/trends/new-this-month,https://datacheck.co.il/trends/dissolved,"DataCheck Research — https://datacheck.co.il/trends"
+2026-01,2249,1238,1011,2026-08-26,complete,https://datacheck.co.il/trends/new-this-month,https://datacheck.co.il/trends/dissolved,"DataCheck Research — https://datacheck.co.il/trends"
+2026-02,1493,1231,262,2026-08-26,complete,https://datacheck.co.il/trends/new-this-month,https://datacheck.co.il/trends/dissolved,"DataCheck Research — https://datacheck.co.il/trends"
+2026-03,1480,1320,160,2026-08-26,complete,https://datacheck.co.il/trends/new-this-month,https://datacheck.co.il/trends/dissolved,"DataCheck Research — https://datacheck.co.il/trends"
+2026-04,1269,1662,-393,2026-08-26,complete,https://datacheck.co.il/trends/new-this-month,https://datacheck.co.il/trends/dissolved,"DataCheck Research — https://datacheck.co.il/trends"
+2026-05,1429,1098,331,2026-08-26,complete,https://datacheck.co.il/trends/new-this-month,https://datacheck.co.il/trends/dissolved,"DataCheck Research — https://datacheck.co.il/trends"
+2026-06,1523,1219,304,2026-08-26,complete,https://datacheck.co.il/trends/new-this-month,https://datacheck.co.il/trends/dissolved,"DataCheck Research — https://datacheck.co.il/trends"
+2026-07,1310,996,314,2026-08-26,complete,https://datacheck.co.il/trends/new-this-month,https://datacheck.co.il/trends/dissolved,"DataCheck Research — https://datacheck.co.il/trends"
+2026-08,1072,733,339,2026-08-26,partial,https://datacheck.co.il/trends/new-this-month,https://datacheck.co.il/trends/dissolved,"DataCheck Research — https://datacheck.co.il/trends"
+
